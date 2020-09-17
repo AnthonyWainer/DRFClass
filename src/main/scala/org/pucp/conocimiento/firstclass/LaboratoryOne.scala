@@ -2,6 +2,8 @@ package org.pucp.conocimiento.firstclass
 
 import org.apache.jena.rdf.model.ModelFactory
 
+import scala.collection.JavaConversions.asScalaIterator
+
 object LaboratoryOne {
   def main(args: Array[String]): Unit = {
 
