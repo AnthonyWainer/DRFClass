@@ -1,10 +1,8 @@
-package org.pucp.conocimiento
+package org.pucp.conocimiento.firstclass
 
 import org.apache.jena.rdf.model.ModelFactory
-import scala.collection.JavaConversions.asScalaIterator
 
-
-object RDFClass {
+object LaboratoryOne {
   def main(args: Array[String]): Unit = {
 
     val alumnosURI = "https://raw.githubusercontent.com/andres-melgar/rdf/master/alumnos.rdf"

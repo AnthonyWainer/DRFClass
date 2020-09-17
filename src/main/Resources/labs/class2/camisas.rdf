@@ -1,0 +1,22 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:pucp="http://www.pucp.edu.pe/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <pucp:Oxfords rdf:about="http://www.pucp.edu.pe/ClassicOxford">
+    <rdf:type>
+      <rdf:Description rdf:about="http://www.pucp.edu.pe/Shirts">
+        <rdfs:subClassOf rdf:resource="http://www.pucp.edu.pe/MensWear"/>
+      </rdf:Description>
+    </rdf:type>
+  </pucp:Oxfords>
+  <pucp:Henleys rdf:about="http://www.pucp.edu.pe/ChamoisHenley"/>
+  <rdf:Description rdf:about="http://www.pucp.edu.pe/Tshirts">
+    <rdfs:subClassOf rdf:resource="http://www.pucp.edu.pe/Shirts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.pucp.edu.pe/Oxfords">
+    <rdfs:subClassOf rdf:resource="http://www.pucp.edu.pe/Shirts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.pucp.edu.pe/Henleys">
+    <rdfs:subClassOf rdf:resource="http://www.pucp.edu.pe/Shirts"/>
+  </rdf:Description>
+</rdf:RDF>
