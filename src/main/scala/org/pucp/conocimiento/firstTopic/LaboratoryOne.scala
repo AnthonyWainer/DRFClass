@@ -1,4 +1,4 @@
-package org.pucp.conocimiento.firstclass
+package org.pucp.conocimiento.firstTopic
 
 import org.apache.jena.rdf.model.ModelFactory
 

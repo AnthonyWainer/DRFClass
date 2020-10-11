@@ -1,4 +1,4 @@
-package org.pucp.conocimiento.secondclass
+package org.pucp.conocimiento.secondTopic
 
 import java.io.{FileNotFoundException, FileOutputStream}
 
@@ -37,7 +37,7 @@ object WriteRDF {
       output = new FileOutputStream("camisas.rdf")
     }
     catch {
-      case e: FileNotFoundException =>
+      case _: FileNotFoundException =>
         System.out.println("Ocurrio un error al crear el archivo.")
     }
     model.write(output, "RDF/XML-ABBREV")

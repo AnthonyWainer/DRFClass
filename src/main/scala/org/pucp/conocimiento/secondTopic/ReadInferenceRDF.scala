@@ -1,4 +1,4 @@
-package org.pucp.conocimiento.secondclass
+package org.pucp.conocimiento.secondTopic
 
 import java.io.InputStream
 
@@ -8,7 +8,7 @@ import org.apache.jena.vocabulary.RDF
 object ReadInferenceRDF {
   def main(args: Array[String]): Unit = {
 
-    val inputFileName = "/labs/class2/camisas.rdf"
+    val inputFileName = "/labs/topic2/camisas.rdf"
     val stream: InputStream = getClass.getResourceAsStream(inputFileName)
 
     val model = ModelFactory.createDefaultModel

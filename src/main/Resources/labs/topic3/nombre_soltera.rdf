@@ -1,0 +1,15 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:pucp="http://www.pucp.edu.pe/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <rdf:Description rdf:about="http://www.pucp.edu.pe/hasMaidenName">
+    <rdfs:domain>
+      <rdf:Description rdf:about="http://www.pucp.edu.pe/MarriedWoman">
+        <rdfs:subClassOf rdf:resource="http://www.pucp.edu.pe/Woman"/>
+      </rdf:Description>
+    </rdfs:domain>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.pucp.edu.pe/Karen">
+    <pucp:hasMaidenName rdf:resource="http://www.pucp.edu.pe/Stephens"/>
+  </rdf:Description>
+</rdf:RDF>

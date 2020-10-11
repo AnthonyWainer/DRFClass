@@ -1,0 +1,27 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:pucp="http://www.pucp.edu.pe/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <rdf:Description rdf:about="http://www.pucp.edu.pe/Long">
+    <pucp:indirectlyContractsTo rdf:resource="http://www.pucp.edu.pe/TheFirm"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.pucp.edu.pe/freeLancesTo">
+    <rdfs:subPropertyOf>
+      <rdf:Description rdf:about="http://www.pucp.edu.pe/contractsTo">
+        <rdfs:subPropertyOf rdf:resource="http://www.pucp.edu.pe/worksFor"/>
+      </rdf:Description>
+    </rdfs:subPropertyOf>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.pucp.edu.pe/Goldman">
+    <pucp:isEmployedBy rdf:resource="http://www.pucp.edu.pe/TheFirm"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.pucp.edu.pe/Spence">
+    <pucp:freeLancesTo rdf:resource="http://www.pucp.edu.pe/TheFirm"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.pucp.edu.pe/indirectlyContractsTo">
+    <rdfs:subPropertyOf rdf:resource="http://www.pucp.edu.pe/contractsTo"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.pucp.edu.pe/isEmployedBy">
+    <rdfs:subPropertyOf rdf:resource="http://www.pucp.edu.pe/worksFor"/>
+  </rdf:Description>
+</rdf:RDF>

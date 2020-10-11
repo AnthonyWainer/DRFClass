@@ -1,4 +1,4 @@
-package org.pucp.conocimiento.secondclass
+package org.pucp.conocimiento.secondTopic
 
 import org.apache.jena.rdf.model.{ModelFactory, SimpleSelector}
 import org.apache.jena.vocabulary.RDF
