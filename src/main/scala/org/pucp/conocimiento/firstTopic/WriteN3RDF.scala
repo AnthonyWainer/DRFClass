@@ -22,7 +22,7 @@ object WriteN3RDF {
     var output: FileOutputStream = null
 
     try {
-      output = new FileOutputStream("src/main/Resources/labs/class1/vCard.nt")
+      output = new FileOutputStream("src/main/Resources/labs/topic1/vCard.nt")
     }
     catch {
       case e: FileNotFoundException =>

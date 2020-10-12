@@ -34,7 +34,7 @@ object CreateDomainRDF {
     var output: FileOutputStream = null
 
     try {
-      output = new FileOutputStream(s"src/main/Resources/labs/class3/$nmRDFFile")
+      output = new FileOutputStream(s"src/main/Resources/labs/topic3/$nmRDFFile")
     }
     catch {
       case e: FileNotFoundException =>

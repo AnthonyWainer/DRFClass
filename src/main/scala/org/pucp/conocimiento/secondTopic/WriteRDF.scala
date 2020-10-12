@@ -38,7 +38,7 @@ object WriteRDF {
     }
     catch {
       case _: FileNotFoundException =>
-        System.out.println("Ocurrio un error al crear el archivo.")
+        println("Ocurrio un error al crear el archivo.")
     }
     model.write(output, "RDF/XML-ABBREV")
   }

@@ -21,7 +21,7 @@ object WriteXMLRDF {
     var output: FileOutputStream = null
 
     try {
-      output = new FileOutputStream("src/main/Resources/labs/class1/vCard.rdf")
+      output = new FileOutputStream("src/main/Resources/labs/topic1/vCard.rdf")
     }
     catch {
       case e: FileNotFoundException =>

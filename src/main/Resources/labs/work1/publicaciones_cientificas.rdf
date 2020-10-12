@@ -1,0 +1,65 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#"
+    xmlns:pucp="https://perucris.concytec.gob.pe/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <rdf:Description rdf:about="https://perucris.concytec.gob.pe/materia">
+    <rdfs:subPropertyOf>
+      <rdf:Description rdf:about="https://perucris.concytec.gob.pe/tipo">
+        <rdfs:subClassOf rdf:resource="https://perucris.concytec.gob.pe/publicacionesCientificas"/>
+        <vcard:TITLE>Artículos Científicos</vcard:TITLE>
+        <vcard:TITLE>Monografías Científicas</vcard:TITLE>
+        <vcard:TITLE>Revistas</vcard:TITLE>
+      </rdf:Description>
+    </rdfs:subPropertyOf>
+    <vcard:NAME>Linguística, Letras Y Artes</vcard:NAME>
+    <vcard:NAME>Ingeniería</vcard:NAME>
+    <vcard:NAME>Humanidades</vcard:NAME>
+    <vcard:NAME>Monografías Científicas</vcard:NAME>
+    <vcard:NAME>Ciencias Sociales Aplicadas</vcard:NAME>
+    <vcard:NAME>Ciencias Exactas Y De La Tierra</vcard:NAME>
+    <vcard:NAME>Ciencias Biológicas</vcard:NAME>
+    <vcard:NAME>Ciencias Agrícolas</vcard:NAME>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://perucris.concytec.gob.pe/autor">
+    <rdfs:subPropertyOf>
+      <rdf:Description rdf:about="https://perucris.concytec.gob.pe/datosPublicacion">
+        <rdfs:subClassOf rdf:resource="https://perucris.concytec.gob.pe/publicacionesCientificas"/>
+      </rdf:Description>
+    </rdfs:subPropertyOf>
+    <vcard:NAME>Tom</vcard:NAME>
+    <vcard:NAME>Andreu</vcard:NAME>
+    <vcard:NAME>NeL</vcard:NAME>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://perucris.concytec.gob.pe/ISSN">
+    <rdfs:domain>
+      <rdf:Description rdf:about="https://perucris.concytec.gob.pe/registro">
+        <rdfs:subPropertyOf rdf:resource="https://perucris.concytec.gob.pe/registro"/>
+        <vcard:FN>dfsfsd2</vcard:FN>
+        <vcard:FN>fgdfg12</vcard:FN>
+        <vcard:FN>zxcq212</vcard:FN>
+      </rdf:Description>
+    </rdfs:domain>
+    <vcard:FN>321</vcard:FN>
+    <vcard:FN>123</vcard:FN>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://perucris.concytec.gob.pe/palabrasClaves">
+    <rdfs:subPropertyOf>
+      <rdf:Description rdf:about="https://perucris.concytec.gob.pe/palabrasTitulo">
+        <rdfs:subClassOf rdf:resource="https://perucris.concytec.gob.pe/publicacionesCientificas"/>
+      </rdf:Description>
+    </rdfs:subPropertyOf>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://perucris.concytec.gob.pe/fecha">
+    <rdfs:subPropertyOf rdf:resource="https://perucris.concytec.gob.pe/fecha"/>
+    <vcard:FN>05/02/2020</vcard:FN>
+    <vcard:FN>10/10/2019</vcard:FN>
+    <vcard:FN>12/06/2017</vcard:FN>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://perucris.concytec.gob.pe/lugar">
+    <rdfs:subPropertyOf rdf:resource="https://perucris.concytec.gob.pe/lugar"/>
+    <vcard:FN>Londres</vcard:FN>
+    <vcard:FN>LIma</vcard:FN>
+    <vcard:FN>KIev</vcard:FN>
+  </rdf:Description>
+</rdf:RDF>

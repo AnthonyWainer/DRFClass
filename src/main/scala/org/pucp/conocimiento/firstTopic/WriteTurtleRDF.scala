@@ -22,7 +22,7 @@ object WriteTurtleRDF {
     var output: FileOutputStream = null
 
     try {
-      output = new FileOutputStream("src/main/Resources/labs/class1/vCard.ttl")
+      output = new FileOutputStream("src/main/Resources/labs/topic1/vCard.ttl")
     }
     catch {
       case e: FileNotFoundException =>

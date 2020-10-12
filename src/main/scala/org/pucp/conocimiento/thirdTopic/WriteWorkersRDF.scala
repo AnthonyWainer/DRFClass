@@ -36,7 +36,7 @@ object WriteWorkersRDF {
     var output: FileOutputStream = null
 
     try {
-      output = new FileOutputStream("src/main/Resources/labs/class3/relaciones_trabajadores.rdf")
+      output = new FileOutputStream("src/main/Resources/labs/topic3/relaciones_trabajadores.rdf")
     }
     catch {
       case e: FileNotFoundException =>
