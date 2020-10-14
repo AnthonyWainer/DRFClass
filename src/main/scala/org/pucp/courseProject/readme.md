@@ -18,7 +18,7 @@ _Menciona las herramientas que utilizaste para crear tu proyecto_
 _Los integrantes son_
 
 * **Andreu Ayaipoma** - *Developer* - [andreuxvz](https://github.com/andreuxvz)
-* **Nelsi Melgarejo** - *Developer* - [nelsi.melgarejo](https://github.com/nelsi.melgarejo)
+* **Nelsi Melgarejo** - *Developer* - [NelsiMelgarejo](https://github.com/nelsimelgarejo)
 * **Anthony Cachay** - *Developer* - [AnthonyWainer](https://github.com/AnthonyWainer)
 
 
