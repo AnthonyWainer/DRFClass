@@ -4,7 +4,8 @@
     xmlns:pucp="https://perucris.concytec.gob.pe/"
     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
   <rdf:Description rdf:about="https://perucris.concytec.gob.pe/123ISSN">
-    <pucp:registro rdf:resource="https://perucris.concytec.gob.pe/321ISSN"/>
+    <pucp:registro rdf:parseType="Resource">
+    </pucp:registro>
   </rdf:Description>
   <rdf:Description rdf:about="https://perucris.concytec.gob.pe/publicacionesCientificas">
     <rdfs:subClassOf>

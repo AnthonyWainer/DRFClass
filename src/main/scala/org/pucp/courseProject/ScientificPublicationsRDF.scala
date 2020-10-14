@@ -71,14 +71,15 @@ object ScientificPublicationsRDF {
     model.add(register, RDFS.domain, ISSN)
     model.add(wordsTitle, RDFS.subPropertyOf, keyWords)
 
-    val ISSN1 = createResource(uri + "123ISSN", model)
-    val ISSN2 = createResource(uri + "321ISSN", model)
+    val ISSNCode = createResource(uri + "123ISSN", model)
 
-    model.add(ISSN1, register, ISSN2)
+    model.add(ISSNCode, register, model.createResource())
 
     saveRDF("publicaciones_cientificas.rdf", model, "RDF/XML-ABBREV")
     saveRDF("publicaciones_cientificas.nt", model, "N-TRIPLE")
     saveRDF("publicaciones_cientificas.ttl", model, "TURTLE")
+    saveRDF("publicaciones_cientificas.ttl", model, "TTL")
+    saveRDF("publicaciones_cientificas.n3", model, "N3")
 
   }
 

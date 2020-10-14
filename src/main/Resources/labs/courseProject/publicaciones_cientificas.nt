@@ -25,7 +25,7 @@
 <https://perucris.concytec.gob.pe/tipo> <http://www.w3.org/2001/vcard-rdf/3.0#TITLE> "Art\u00EDculos Cient\u00EDficos"^^<http://www.w3.org/2001/XMLSchema#string> .
 <https://perucris.concytec.gob.pe/tipo> <http://www.w3.org/2001/vcard-rdf/3.0#TITLE> "Monograf\u00EDas Cient\u00EDficas"^^<http://www.w3.org/2001/XMLSchema#string> .
 <https://perucris.concytec.gob.pe/tipo> <http://www.w3.org/2001/vcard-rdf/3.0#TITLE> "Revistas"^^<http://www.w3.org/2001/XMLSchema#string> .
-<https://perucris.concytec.gob.pe/123ISSN> <https://perucris.concytec.gob.pe/registro> <https://perucris.concytec.gob.pe/321ISSN> .
+<https://perucris.concytec.gob.pe/123ISSN> <https://perucris.concytec.gob.pe/registro> _:A33b0231dX2dX1d1eX2dX4c68X2dXbfc1X2dXdf0c22e5635b .
 <https://perucris.concytec.gob.pe/lugar> <http://www.w3.org/2001/vcard-rdf/3.0#FN> "Londres"^^<http://www.w3.org/2001/XMLSchema#string> .
 <https://perucris.concytec.gob.pe/lugar> <http://www.w3.org/2001/vcard-rdf/3.0#FN> "LIma"^^<http://www.w3.org/2001/XMLSchema#string> .
 <https://perucris.concytec.gob.pe/lugar> <http://www.w3.org/2001/vcard-rdf/3.0#FN> "Kiev"^^<http://www.w3.org/2001/XMLSchema#string> .
