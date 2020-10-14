@@ -3,7 +3,7 @@
 La publicación de los resultados de un trabajo de investigación en revistas indexadas es el indicador más importante para valorar la producción científica de un país (Huamaní, Chávez-Solís, Domínguez-Haro, & Solano-Aldana, 2007 Reyes, Alarcón & Bahamón, 2014). Por tal motivo, la indexación de estas es muy importante.
 El siquiente proyecto se contruye según el siguiente esquema:
 
-![Esquema](http:/github.com/AnthonyWainer/DRFClass/blob/master/src/main/Resources/courseProject/esquema.png)
+![Esquema](https://github.com/AnthonyWainer/DRFClass/blob/master/src/main/Resources/labs/courseProject/esquema.png?raw=true)
 
  ## Construido con 🛠️
 
