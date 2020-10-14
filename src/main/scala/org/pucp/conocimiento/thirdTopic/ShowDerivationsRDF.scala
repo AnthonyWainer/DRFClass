@@ -23,10 +23,10 @@ object ShowDerivationsRDF {
     val MarriedWoman = model.getResource(resourcedURI)
 
     if (existenAfirmaciones(inf, Karen, RDF.`type`, MarriedWoman)) {
-      println("La afirmación es cierta ");
+      println("La afirmación es cierta ")
       mostrarDerivaciones(inf, Karen, RDF.`type`, MarriedWoman)
     } else {
-      println("La afirmación no es cierta ");
+      println("La afirmación no es cierta ")
     }
 
   }

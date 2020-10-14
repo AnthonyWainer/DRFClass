@@ -1,0 +1,36 @@
+<https://perucris.concytec.gob.pe/publicacionesCientificas> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://perucris.concytec.gob.pe/palabrasTitulo> .
+<https://perucris.concytec.gob.pe/publicacionesCientificas> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://perucris.concytec.gob.pe/datosPublicacion> .
+<https://perucris.concytec.gob.pe/publicacionesCientificas> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://perucris.concytec.gob.pe/tipo> .
+<https://perucris.concytec.gob.pe/ISSN> <http://www.w3.org/2001/vcard-rdf/3.0#FN> "321"^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://perucris.concytec.gob.pe/ISSN> <http://www.w3.org/2001/vcard-rdf/3.0#FN> "123"^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://perucris.concytec.gob.pe/fecha> <http://www.w3.org/2001/vcard-rdf/3.0#FN> "05/02/2020"^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://perucris.concytec.gob.pe/fecha> <http://www.w3.org/2001/vcard-rdf/3.0#FN> "10/10/2019"^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://perucris.concytec.gob.pe/fecha> <http://www.w3.org/2001/vcard-rdf/3.0#FN> "12/06/2017"^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://perucris.concytec.gob.pe/autor> <http://www.w3.org/2001/vcard-rdf/3.0#NAME> "Tom"^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://perucris.concytec.gob.pe/autor> <http://www.w3.org/2001/vcard-rdf/3.0#NAME> "Andreu"^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://perucris.concytec.gob.pe/autor> <http://www.w3.org/2001/vcard-rdf/3.0#NAME> "NeL"^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://perucris.concytec.gob.pe/materia> <http://www.w3.org/2001/vcard-rdf/3.0#NAME> "Lingu\u00EDstica, Letras Y Artes"^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://perucris.concytec.gob.pe/materia> <http://www.w3.org/2001/vcard-rdf/3.0#NAME> "Ingenier\u00EDa"^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://perucris.concytec.gob.pe/materia> <http://www.w3.org/2001/vcard-rdf/3.0#NAME> "Humanidades"^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://perucris.concytec.gob.pe/materia> <http://www.w3.org/2001/vcard-rdf/3.0#NAME> "Monograf\u00EDas Cient\u00EDficas"^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://perucris.concytec.gob.pe/materia> <http://www.w3.org/2001/vcard-rdf/3.0#NAME> "Ciencias Sociales Aplicadas"^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://perucris.concytec.gob.pe/materia> <http://www.w3.org/2001/vcard-rdf/3.0#NAME> "Ciencias Exactas Y De La Tierra"^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://perucris.concytec.gob.pe/materia> <http://www.w3.org/2001/vcard-rdf/3.0#NAME> "Ciencias Biol\u00F3gicas"^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://perucris.concytec.gob.pe/materia> <http://www.w3.org/2001/vcard-rdf/3.0#NAME> "Ciencias Agr\u00EDcolas"^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://perucris.concytec.gob.pe/datosPublicacion> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://perucris.concytec.gob.pe/registro> .
+<https://perucris.concytec.gob.pe/datosPublicacion> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://perucris.concytec.gob.pe/lugar> .
+<https://perucris.concytec.gob.pe/datosPublicacion> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://perucris.concytec.gob.pe/fecha> .
+<https://perucris.concytec.gob.pe/datosPublicacion> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://perucris.concytec.gob.pe/autor> .
+<https://perucris.concytec.gob.pe/tipo> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://perucris.concytec.gob.pe/materia> .
+<https://perucris.concytec.gob.pe/tipo> <http://www.w3.org/2001/vcard-rdf/3.0#TITLE> "Art\u00EDculos Cient\u00EDficos"^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://perucris.concytec.gob.pe/tipo> <http://www.w3.org/2001/vcard-rdf/3.0#TITLE> "Monograf\u00EDas Cient\u00EDficas"^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://perucris.concytec.gob.pe/tipo> <http://www.w3.org/2001/vcard-rdf/3.0#TITLE> "Revistas"^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://perucris.concytec.gob.pe/123ISSN> <https://perucris.concytec.gob.pe/registro> <https://perucris.concytec.gob.pe/321ISSN> .
+<https://perucris.concytec.gob.pe/lugar> <http://www.w3.org/2001/vcard-rdf/3.0#FN> "Londres"^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://perucris.concytec.gob.pe/lugar> <http://www.w3.org/2001/vcard-rdf/3.0#FN> "LIma"^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://perucris.concytec.gob.pe/lugar> <http://www.w3.org/2001/vcard-rdf/3.0#FN> "Kiev"^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://perucris.concytec.gob.pe/palabrasTitulo> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://perucris.concytec.gob.pe/palabrasClaves> .
+<https://perucris.concytec.gob.pe/registro> <http://www.w3.org/2000/01/rdf-schema#domain> <https://perucris.concytec.gob.pe/ISSN> .
+<https://perucris.concytec.gob.pe/registro> <http://www.w3.org/2001/vcard-rdf/3.0#FN> "dfsfsd2"^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://perucris.concytec.gob.pe/registro> <http://www.w3.org/2001/vcard-rdf/3.0#FN> "fgdfg13"^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://perucris.concytec.gob.pe/registro> <http://www.w3.org/2001/vcard-rdf/3.0#FN> "zxcq210"^^<http://www.w3.org/2001/XMLSchema#string> .

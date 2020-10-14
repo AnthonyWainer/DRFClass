@@ -17,7 +17,6 @@ object CreateDomainRDF {
     val MarriedWoman = crearRecurso(uri + "MarriedWoman", model)
     val hasMaidenName = crearPropiedad(uri, "hasMaidenName", model)
 
-
     model.add(MarriedWoman, RDFS.subClassOf, Woman)
     model.add(hasMaidenName, RDFS.domain, MarriedWoman)
 

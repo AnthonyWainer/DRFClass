@@ -1,0 +1,48 @@
+@prefix pucp:    <https://perucris.concytec.gob.pe/> .
+
+<https://perucris.concytec.gob.pe/123ISSN>
+      pucp:registro <https://perucris.concytec.gob.pe/321ISSN> .
+
+pucp:palabrasTitulo
+      <http://www.w3.org/2000/01/rdf-schema#subPropertyOf>
+              pucp:palabrasClaves .
+
+pucp:materia
+      <http://www.w3.org/2001/vcard-rdf/3.0#NAME>
+              "Linguística, Letras Y Artes" , "Ingeniería" , "Monografías Científicas" , "Ciencias Sociales Aplicadas" , "Ciencias Agrícolas" , "Ciencias Exactas Y De La Tierra" , "Ciencias Biológicas" , "Humanidades" .
+
+pucp:datosPublicacion
+      <http://www.w3.org/2000/01/rdf-schema#subPropertyOf>
+              pucp:autor , pucp:fecha , pucp:lugar , pucp:registro .
+
+pucp:tipo
+      <http://www.w3.org/2000/01/rdf-schema#subPropertyOf>
+              pucp:materia ;
+      <http://www.w3.org/2001/vcard-rdf/3.0#TITLE>
+              "Monografías Científicas" , "Artículos Científicos" , "Revistas" .
+
+pucp:autor
+      <http://www.w3.org/2001/vcard-rdf/3.0#NAME>
+              "Andreu" , "Tom" , "NeL" .
+
+pucp:publicacionesCientificas
+      <http://www.w3.org/2000/01/rdf-schema#subClassOf>
+              pucp:palabrasTitulo , pucp:datosPublicacion , pucp:tipo .
+
+pucp:fecha
+      <http://www.w3.org/2001/vcard-rdf/3.0#FN>
+              "05/02/2020" , "10/10/2019" , "12/06/2017" .
+
+pucp:ISSN
+      <http://www.w3.org/2001/vcard-rdf/3.0#FN>
+              "321" , "123" .
+
+pucp:lugar
+      <http://www.w3.org/2001/vcard-rdf/3.0#FN>
+              "Londres" , "Kiev" , "LIma" .
+
+pucp:registro
+      <http://www.w3.org/2000/01/rdf-schema#domain>
+              pucp:ISSN ;
+      <http://www.w3.org/2001/vcard-rdf/3.0#FN>
+              "fgdfg13" , "zxcq210" , "dfsfsd2" .
