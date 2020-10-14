@@ -42,9 +42,9 @@ object QueryRDF {
    * @param predicate      The predicate
    * @param objectResource The object Resource
    */
-  private def showDeclarations(inf: InfModel, subject: Resource, predicate: Property, objectResource: Resource): Unit = {
+  private def showDeclarations(infModel: InfModel, subject: Resource, predicate: Property, objectResource: Resource): Unit = {
     val selector = new SimpleSelector(subject, predicate, objectResource)
-    inf.listStatements(selector).foreach(println)
+    infModel.listStatements(selector).foreach(println)
   }
 
   /**
@@ -56,9 +56,9 @@ object QueryRDF {
    * @param objectResource The object Resource
    * @return true or false
    */
-  def existAffirmations(inf: InfModel, subject: Resource, predicate: Property, objectResource: Resource): Boolean = {
+  def existAffirmations(infModel: InfModel, subject: Resource, predicate: Property, objectResource: Resource): Boolean = {
     val selector = new SimpleSelector(subject, predicate, objectResource)
-    val iterator = inf.listStatements(selector)
+    val iterator = infModel.listStatements(selector)
     iterator.hasNext
   }
 
@@ -70,15 +70,15 @@ object QueryRDF {
    * @param predicate      The predicate
    * @param objectResource The object Resource
    */
-  def showDerivations(inf: InfModel, subject: Resource, predicate: Property, objectResource: Resource): Unit = {
+  def showDerivations(infModel: InfModel, subject: Resource, predicate: Property, objectResource: Resource): Unit = {
     val out = new PrintWriter(System.out)
-    val i = inf.listStatements(subject, predicate, objectResource)
+    val i = infModel.listStatements(subject, predicate, objectResource)
 
     while (i.hasNext) {
       val s = i.nextStatement
       println("Statement is " + s)
 
-      val id = inf.getDerivation(s)
+      val id = infModel.getDerivation(s)
       while (id.hasNext) {
         id.next.printTrace(out, true)
       }
