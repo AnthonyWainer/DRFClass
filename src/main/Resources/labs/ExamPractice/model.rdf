@@ -1,0 +1,29 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:j.0="http://examen/ejercicio1#">
+  <rdf:Description rdf:about="http://examen/ejercicio1#AnneHathaway">
+    <j.0:married>
+      <rdf:Description rdf:about="http://examen/ejercicio1#Shakespeare">
+        <j.0:wrote>
+          <rdf:Description rdf:about="http://examen/ejercicio1#MacBeth">
+            <j.0:setIn>
+              <rdf:Description rdf:about="http://examen/ejercicio1#Scotland">
+                <j.0:partOf rdf:resource="http://examen/ejercicio1#UK"/>
+              </rdf:Description>
+            </j.0:setIn>
+          </rdf:Description>
+        </j.0:wrote>
+        <j.0:wrote rdf:resource="http://examen/ejercicio1#KingLear"/>
+        <j.0:livedIn>
+          <rdf:Description rdf:about="http://examen/ejercicio1#Stratford">
+            <j.0:isIn>
+              <rdf:Description rdf:about="http://examen/ejercicio1#England">
+                <j.0:partOf rdf:resource="http://examen/ejercicio1#UK"/>
+              </rdf:Description>
+            </j.0:isIn>
+          </rdf:Description>
+        </j.0:livedIn>
+      </rdf:Description>
+    </j.0:married>
+  </rdf:Description>
+</rdf:RDF>
