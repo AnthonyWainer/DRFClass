@@ -1,0 +1,33 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:j.0="http://musicontology.com/music#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <rdf:Description rdf:about="http://musicontology.com/music#isFanWith">
+    <rdfs:domain>
+      <rdf:Description rdf:about="http://musicontology.com/music#nature">
+        <rdfs:subClassOf rdf:resource="http://musicontology.com/music#NightWishBand"/>
+      </rdf:Description>
+    </rdfs:domain>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://musicontology.com/music#Alan">
+    <j.0:isFanWith rdf:resource="http://musicontology.com/music#Jorge"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://musicontology.com/music#TuomasHolopainen">
+    <j.0:hasMember rdf:resource="http://musicontology.com/music#NightWishBand"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://musicontology.com/music#MarcoHietala">
+    <j.0:hasMember rdf:resource="http://musicontology.com/music#NightWishBand"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://musicontology.com/music#Noise">
+    <j.0:isTrackOf rdf:resource="http://musicontology.com/music#nature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://musicontology.com/music#hasMember">
+    <rdfs:range rdf:resource="http://musicontology.com/music#NightWishBand"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://musicontology.com/music#isTrackOf">
+    <rdfs:subPropertyOf rdf:resource="http://musicontology.com/music#nature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://musicontology.com/music#Elan">
+    <j.0:isTrackOf rdf:resource="http://musicontology.com/music#nature"/>
+  </rdf:Description>
+</rdf:RDF>

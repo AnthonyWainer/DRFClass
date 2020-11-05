@@ -11,7 +11,7 @@ object ShowDerivationsRDF {
     val inputFileName = "/labs/topic3/nombre_soltera.rdf"
     val stream = getClass.getResourceAsStream(inputFileName)
 
-    val model = ModelFactory.createDefaultModel
+   val model = ModelFactory.createDefaultModel
     model.read(stream, "")
     val inf = ModelFactory.createRDFSModel(model)
     inf.setDerivationLogging(true)

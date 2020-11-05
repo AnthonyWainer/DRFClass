@@ -1,0 +1,368 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.lenguajesdeprogramacion/ontologies/"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.lenguajesdeprogramacion/ontologies/">
+    <Prefix name="" IRI="http://www.lenguajesdeprogramacion/ontologies/"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <Literal>Lenguajes de programacion Ontologías</Literal>
+    </Annotation>
+    <Declaration>
+        <Class IRI="ArtistitaMusical"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Bachata"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Canciones"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="CancionesEnEspañol"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="CancionesEnIngles"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Clasico"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Contemporaneo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Electro"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="GoodVibrations"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="HeyJude"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="ImagineJ"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Jazz"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="LasalsaNuevaYorkoestiloMambo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Lasalsacubana"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="LasalsadePuertoRico"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="LasalsaenRuedaCubana"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="LasalsaenlineaoalestilodeLosAngeles"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Lasalsavenezolana"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="LikeaRollingStone"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="MejoresCanciones"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Moderno"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="MusicaClasica"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="MusicaDelGenero"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Pop"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Reggaton"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Respect"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Rock"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Salsa"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Satisfaction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="SmellsLikeTeenSpirit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Techno"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="WhatdISay"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="WhatsGoingOn"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="ohnnyBGoode"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="Cantanta"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="EsCancionDe"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="EsCantadaPor"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="EsMusicaDelGeneroDe"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="TieneCancion"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="TieneMusicaDelGenero"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="Bachata"/>
+        <Class IRI="MusicaDelGenero"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="CancionesEnEspañol"/>
+        <Class IRI="Canciones"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="CancionesEnIngles"/>
+        <Class IRI="Canciones"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Clasico"/>
+        <Class IRI="ArtistitaMusical"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Contemporaneo"/>
+        <Class IRI="ArtistitaMusical"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Electro"/>
+        <Class IRI="MusicaDelGenero"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="GoodVibrations"/>
+        <Class IRI="MejoresCanciones"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="HeyJude"/>
+        <Class IRI="MejoresCanciones"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="ImagineJ"/>
+        <Class IRI="MejoresCanciones"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Jazz"/>
+        <Class IRI="MusicaDelGenero"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="LasalsaNuevaYorkoestiloMambo"/>
+        <Class IRI="Salsa"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Lasalsacubana"/>
+        <Class IRI="Salsa"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="LasalsadePuertoRico"/>
+        <Class IRI="Salsa"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="LasalsaenRuedaCubana"/>
+        <Class IRI="Salsa"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="LasalsaenlineaoalestilodeLosAngeles"/>
+        <Class IRI="Salsa"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Lasalsavenezolana"/>
+        <Class IRI="Salsa"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="LikeaRollingStone"/>
+        <Class IRI="MejoresCanciones"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="MejoresCanciones"/>
+        <Class IRI="Canciones"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Moderno"/>
+        <Class IRI="ArtistitaMusical"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="MusicaClasica"/>
+        <Class IRI="MusicaDelGenero"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Pop"/>
+        <Class IRI="MusicaDelGenero"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Reggaton"/>
+        <Class IRI="MusicaDelGenero"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Respect"/>
+        <Class IRI="MejoresCanciones"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Rock"/>
+        <Class IRI="MusicaDelGenero"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Salsa"/>
+        <Class IRI="MusicaDelGenero"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Satisfaction"/>
+        <Class IRI="MejoresCanciones"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="SmellsLikeTeenSpirit"/>
+        <Class IRI="MejoresCanciones"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Techno"/>
+        <Class IRI="MusicaDelGenero"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="WhatdISay"/>
+        <Class IRI="MejoresCanciones"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="WhatsGoingOn"/>
+        <Class IRI="MejoresCanciones"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="ohnnyBGoode"/>
+        <Class IRI="MejoresCanciones"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="ArtistitaMusical"/>
+        <Class IRI="Canciones"/>
+        <Class IRI="MusicaDelGenero"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="Bachata"/>
+        <Class IRI="Electro"/>
+        <Class IRI="Jazz"/>
+        <Class IRI="MusicaClasica"/>
+        <Class IRI="Pop"/>
+        <Class IRI="Reggaton"/>
+        <Class IRI="Rock"/>
+        <Class IRI="Salsa"/>
+        <Class IRI="Techno"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="GoodVibrations"/>
+        <Class IRI="HeyJude"/>
+        <Class IRI="ImagineJ"/>
+        <Class IRI="LikeaRollingStone"/>
+        <Class IRI="Respect"/>
+        <Class IRI="Satisfaction"/>
+        <Class IRI="SmellsLikeTeenSpirit"/>
+        <Class IRI="WhatdISay"/>
+        <Class IRI="WhatsGoingOn"/>
+        <Class IRI="ohnnyBGoode"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="LasalsaNuevaYorkoestiloMambo"/>
+        <Class IRI="Lasalsacubana"/>
+        <Class IRI="LasalsadePuertoRico"/>
+        <Class IRI="LasalsaenRuedaCubana"/>
+        <Class IRI="LasalsaenlineaoalestilodeLosAngeles"/>
+        <Class IRI="Lasalsavenezolana"/>
+    </DisjointClasses>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="EsCancionDe"/>
+        <ObjectProperty IRI="EsCantadaPor"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="EsMusicaDelGeneroDe"/>
+        <ObjectProperty IRI="EsCantadaPor"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="TieneCancion"/>
+        <ObjectProperty IRI="Cantanta"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="TieneMusicaDelGenero"/>
+        <ObjectProperty IRI="Cantanta"/>
+    </SubObjectPropertyOf>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="Cantanta"/>
+        <ObjectProperty IRI="EsCancionDe"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="Cantanta"/>
+        <ObjectProperty IRI="EsMusicaDelGeneroDe"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="Cantanta"/>
+        <ObjectProperty IRI="TieneCancion"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="EsCantadaPor"/>
+        <ObjectProperty IRI="TieneMusicaDelGenero"/>
+    </InverseObjectProperties>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="EsCancionDe"/>
+        <Class IRI="Canciones"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="EsMusicaDelGeneroDe"/>
+        <Class IRI="MusicaDelGenero"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="TieneCancion"/>
+        <Class IRI="ArtistitaMusical"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="TieneMusicaDelGenero"/>
+        <Class IRI="ArtistitaMusical"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="EsCancionDe"/>
+        <Class IRI="ArtistitaMusical"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="EsMusicaDelGeneroDe"/>
+        <Class IRI="ArtistitaMusical"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="TieneCancion"/>
+        <Class IRI="Canciones"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="TieneMusicaDelGenero"/>
+        <Class IRI="MusicaDelGenero"/>
+    </ObjectPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
